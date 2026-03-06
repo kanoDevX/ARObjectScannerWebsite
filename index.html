@@ -10,8 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./mobile.css">
 </head>
-<body>
+<body> 
     <header class="header">
         <div class="header-nav">
             <div class="nav-main">
@@ -25,8 +26,6 @@
                     <img src="./images/header/main_logo.png" alt="APEC Logo" class="apec-logo">
                 </a>
             </div>
-
-            
 
             <ul class="nav-links">
                 <li>
@@ -42,6 +41,12 @@
                     <a href="#download" class="nav-APK">Download APK</a>
                 </li>
             </ul>
+
+            <button class="burger-user" id="burger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </header>
 
@@ -233,4 +238,7 @@
                     <a href="#download">Download</a>
                 </div>
     </footer>
+
+    <script src="./mobile.js"></script>
+</body>
 </html>
