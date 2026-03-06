@@ -5,13 +5,6 @@ body {
     overflow-x: hidden;
 }
 
-.container {
-    max-width: 1480px;
-    margin: 0 auto;
-    padding: 0 20px;
-    
-}
-
 .header-nav {
     position: fixed;
     display: flex;
@@ -24,10 +17,16 @@ body {
     z-index: 100;
 }
 
+.nav-main {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .nav-logo {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
     text-decoration: none;
 }
 
@@ -40,6 +39,19 @@ body {
 
 .nav-logo_name span {
     color: #00e5ff;
+}
+
+.logo-separater {
+    display: block;
+    width: 1px;
+    height: 31px;
+    background: grey;
+}
+
+.apec-logo {
+    width: 90px;
+    height: 60px;
+    object-fit: contain;
 }
 
 .nav-links {
@@ -558,3 +570,4 @@ body {
 .footer-links a:hover { 
     color: #00e5ff; 
 }
+
