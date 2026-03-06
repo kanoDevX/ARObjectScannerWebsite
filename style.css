@@ -86,6 +86,10 @@ body {
     transition: opacity 0.2s ease !important;
 }
 
+.burger-user {
+    display: none;
+}
+
 .main-introduction {
     display: flex;
     flex-direction: column;
